@@ -4,26 +4,36 @@
 <head>
 <title> Google Homepage </title>
 <style>
+
     .logo{
         margin: auto;
         position: absolute;
-        top: 25%;
+        top: 15%;
         left: 40%;
     }
-    .wrapper {
+    .input {
         position: absolute;
-        top: 50%;
-        left: 45%;
+        width: 400px;
+        top: 35%;
+        left: 33%;
+        height: 50px;
+        border-collapse: separate;
+        border-radius: 50px;
+        overflow: hidden;
     }
     .search {
         position: absolute;
-        top: 60%;
+        top: 50%;
         left: 40%;
+        height: 35px;
+        width: 100px;
     }
     .lucky {
         position: absolute;
-        top: 60%;
+        top: 50%;
         left: 55%;
+        height: 35px;
+        width: 120px;
     }
 </style>
 </head>
@@ -31,21 +41,24 @@
     <body>
      
      <div id="header">
+         
 
-        
+
      </div>   
-
+  
     <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt= "Google Logo">
 
     <div class="wrapper">
-       <input type="text" class="input" placeholder="Search Bar">
+       <input type="text" class="input" placeholder="">
             <div class="searchbtn">
             </div>
+            <span class="material-icons-outlined">
+                </span>
     </div>
 
     <button class="search">Google Search</button>
 
-    <button class="lucky">Feeling Lucky</button>
+    <button class="lucky">I'm Feeling Lucky</button>
 
     <div id="footer">
         
